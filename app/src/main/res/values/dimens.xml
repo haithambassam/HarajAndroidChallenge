@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_between_icons_and_text">8dp</dimen>
+    <dimen name="car_image_corner_radius">10dp</dimen>
+
+    <dimen name="ads_RV_vertical_margin">19dp</dimen>
+    <dimen name="ads_RV_horizontal_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        tools:context=".ui.ad_details.AdDetailsFragment">
+
+        <ImageView
+            android:id="@+id/ad_IV"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:src="@drawable/vector_no_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ad_name_TV"
+            style="@style/AdTitleTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Toyota camry"
+            android:textAlignment="viewStart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ad_IV" />
+
+        <TextView
+            android:id="@+id/ad_creation_date_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2021/05/25"
+            app:layout_constraintStart_toStartOf="@id/ad_name_TV"
+            app:layout_constraintTop_toBottomOf="@id/ad_name_TV" />
+
+        <ImageView
+            android:id="@+id/seller_IV"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_user"
+            app:layout_constraintStart_toStartOf="@id/ad_name_TV"
+            app:layout_constraintTop_toBottomOf="@id/ad_creation_date_TV"
+            app:tint="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/seller_name_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_between_icons_and_text"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="abdul Rehman"
+            android:textAlignment="viewStart"
+            app:layout_constraintBottom_toBottomOf="@id/seller_IV"
+            app:layout_constraintEnd_toStartOf="@id/location_IV"
+            app:layout_constraintStart_toEndOf="@id/seller_IV"
+            app:layout_constraintTop_toTopOf="@id/seller_IV" />
+
+        <ImageView
+            android:id="@+id/location_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_between_icons_and_text"
+            android:src="@drawable/vector_location"
+            app:layout_constraintBottom_toBottomOf="@id/seller_IV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias=".65"
+            app:layout_constraintStart_toEndOf="@id/seller_IV"
+            app:layout_constraintTop_toTopOf="@id/seller_IV" />
+
+        <TextView
+            android:id="@+id/location_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_between_icons_and_text"
+            android:layout_marginEnd="10dp"
+            android:text="Riyadh"
+            android:textAlignment="viewStart"
+            app:layout_constraintBottom_toBottomOf="@id/location_IV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/location_IV"
+            app:layout_constraintTop_toTopOf="@id/location_IV" />
+
+        <TextView
+            android:id="@+id/ad_details_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="I have a toyota camry GLE For sale if you want it contact me asdasd asd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/ad_name_TV"
+            app:layout_constraintTop_toBottomOf="@id/seller_IV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

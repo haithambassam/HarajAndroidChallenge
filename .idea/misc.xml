@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/ic_location.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/ic_search.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/ic_share.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/ic_user.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/drawable/vector_location.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/layout/fragment_ad_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/layout/fragment_cars_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/layout/item_ad.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/layout/item_car.xml" value="0.25" />
+        <entry key="..\:/Users/HaithamAwadallah/Desktop/myapps/freelance/HarajAndroidChallenge/app/src/main/res/menu/ad_details_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
