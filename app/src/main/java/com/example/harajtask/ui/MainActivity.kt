@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         setAppLanguage()
         super.onCreate(savedInstanceState)
-        setSupportActionBar(binding.toolbar.apply { title = "" })
+        setSupportActionBar(binding.toolbar.apply { title = "Haraj Task" })
         setContentView(binding.root)
         viewModel.getAdvertisements()
     }
